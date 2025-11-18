@@ -1,0 +1,71 @@
+{
+  "free_roadmaps": [
+    {
+      "id": "frontend",
+      "title": "Frontend Developer",
+      "description": "Master modern web development with HTML, CSS, JavaScript, and React",
+      "icon": "💻",
+      "difficulty": "Beginner",
+      "duration": "6-12 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Basics",
+          "name": "HTML & CSS",
+          "description": "Learn HTML structure and CSS styling fundamentals",
+          "isCompleted": false,
+          "resources": ["https://developer.mozilla.org/en-US/docs/Web/HTML"]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "JavaScript Fundamentals",
+          "description": "Variables, functions, loops, DOM manipulation",
+          "isCompleted": false,
+          "resources": ["https://javascript.info/"]
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "React.js",
+          "description": "Component-based UI development",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend Developer",
+      "description": "Build scalable server-side applications and APIs",
+      "icon": "⚙️",
+      "difficulty": "Intermediate",
+      "duration": "8-14 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Programming Language",
+          "description": "Choose: Python, Node.js, Java, or Go",
+          "isCompleted": false
+        }
+      ]
+    }
+  ],
+  "premium_roadmaps": [
+    {
+      "id": "blockchain",
+      "title": "Blockchain Developer",
+      "description": "Build decentralized applications and smart contracts",
+      "icon": "⛓️",
+      "difficulty": "Advanced",
+      "duration": "10-16 months",
+      "isPremium": true,
+      "steps": [
+        {
+          "phase": "Phase 1: Foundations",
+          "name": "Blockchain Basics",
+          "description": "Understand how blockchain technology works",
+          "isCompleted": false
+        }
+      ]
+    }
+  ]
+}
