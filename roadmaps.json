@@ -24,10 +24,39 @@
           "resources": ["https://javascript.info/"]
         },
         {
+          "phase": "Phase 1: Basics",
+          "name": "Git & GitHub",
+          "description": "Version control and collaboration",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
           "phase": "Phase 2: Advanced",
           "name": "React.js",
           "description": "Component-based UI development",
-          "isCompleted": false
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "State Management",
+          "description": "Redux or Context API",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "TypeScript",
+          "description": "Type-safe JavaScript",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Testing",
+          "description": "Jest and React Testing Library",
+          "isCompleted": false,
+          "resources": null
         }
       ]
     },
@@ -44,7 +73,121 @@
           "phase": "Phase 1: Basics",
           "name": "Programming Language",
           "description": "Choose: Python, Node.js, Java, or Go",
-          "isCompleted": false
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Databases",
+          "description": "SQL (PostgreSQL, MySQL) and NoSQL (MongoDB)",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "REST APIs",
+          "description": "Build RESTful web services",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Authentication",
+          "description": "JWT, OAuth, Sessions",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Caching",
+          "description": "Redis and caching strategies",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    },
+    {
+      "id": "mobile",
+      "title": "Mobile Developer",
+      "description": "Create native and cross-platform mobile applications",
+      "icon": "📱",
+      "difficulty": "Intermediate",
+      "duration": "6-10 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Choose Platform",
+          "name": "Select Framework",
+          "description": "Flutter, React Native, or Native (Swift/Kotlin)",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Choose Platform",
+          "name": "UI/UX Design",
+          "description": "Mobile design patterns and best practices",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Core Skills",
+          "name": "State Management",
+          "description": "Provider, Bloc, Redux, etc.",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Core Skills",
+          "name": "APIs & Networking",
+          "description": "HTTP requests, REST APIs",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    },
+    {
+      "id": "fullstack",
+      "title": "Full Stack Developer",
+      "description": "Master both frontend and backend development",
+      "icon": "🚀",
+      "difficulty": "Advanced",
+      "duration": "12-18 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Frontend",
+          "name": "HTML, CSS, JavaScript",
+          "description": "Master the frontend basics",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Frontend",
+          "name": "React or Vue",
+          "description": "Modern frontend framework",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Backend",
+          "name": "Node.js or Python",
+          "description": "Server-side programming",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Backend",
+          "name": "Databases",
+          "description": "SQL and NoSQL",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: DevOps",
+          "name": "Docker & Deployment",
+          "description": "Containerization and cloud deployment",
+          "isCompleted": false,
+          "resources": null
         }
       ]
     }
@@ -52,7 +195,7 @@
   "premium_roadmaps": [
     {
       "id": "blockchain",
-      "title": "Blockchain Developer",
+      "title": "Blockchain",
       "description": "Build decentralized applications and smart contracts",
       "icon": "⛓️",
       "difficulty": "Advanced",
@@ -63,7 +206,132 @@
           "phase": "Phase 1: Foundations",
           "name": "Blockchain Basics",
           "description": "Understand how blockchain technology works",
-          "isCompleted": false
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Foundations",
+          "name": "Cryptography",
+          "description": "Hashing, encryption, digital signatures",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Development",
+          "name": "Solidity",
+          "description": "Smart contract programming language",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Development",
+          "name": "Web3.js",
+          "description": "Interact with blockchain from JavaScript",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    },
+    {
+      "id": "ai-ml",
+      "title": "AI/ML Engineer",
+      "description": "Build intelligent systems with machine learning",
+      "icon": "🤖",
+      "difficulty": "Advanced",
+      "duration": "12-20 months",
+      "isPremium": true,
+      "steps": [
+        {
+          "phase": "Phase 1: Math & Stats",
+          "name": "Linear Algebra",
+          "description": "Vectors, matrices, and operations",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Math & Stats",
+          "name": "Statistics & Probability",
+          "description": "Distributions, hypothesis testing",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: ML Basics",
+          "name": "Python for ML",
+          "description": "NumPy, Pandas, Matplotlib",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: ML Basics",
+          "name": "Supervised Learning",
+          "description": "Regression, classification algorithms",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    },
+    {
+      "id": "game-dev",
+      "title": "Game Developer",
+      "description": "Create engaging games with Unity or Unreal Engine",
+      "icon": "🎮",
+      "difficulty": "Intermediate",
+      "duration": "10-15 months",
+      "isPremium": true,
+      "steps": [
+        {
+          "phase": "Phase 1: Engine",
+          "name": "Choose Engine",
+          "description": "Unity (C#) or Unreal (C++)",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Engine",
+          "name": "Game Physics",
+          "description": "Collision, gravity, movement",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "3D Modeling",
+          "description": "Blender or Maya basics",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    },
+    {
+      "id": "cloud-architect",
+      "title": "Cloud Architect",
+      "description": "Design and manage cloud infrastructure",
+      "icon": "☁️",
+      "difficulty": "Advanced",
+      "duration": "12-18 months",
+      "isPremium": true,
+      "steps": [
+        {
+          "phase": "Phase 1: Cloud Basics",
+          "name": "AWS/Azure/GCP",
+          "description": "Choose a cloud platform",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Cloud Basics",
+          "name": "Networking",
+          "description": "VPC, subnets, load balancers",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Kubernetes",
+          "description": "Container orchestration",
+          "isCompleted": false,
+          "resources": null
         }
       ]
     }
