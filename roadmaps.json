@@ -61,6 +61,127 @@
       ]
     },
     {
+      "id": "frontend",
+      "title": "Frontend Developer",
+      "description": "Master modern web development with HTML, CSS, JavaScript, and React",
+      "icon": "💻",
+      "difficulty": "Beginner",
+      "duration": "6-12 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Basics",
+          "name": "HTML & CSS",
+          "description": "Learn HTML structure and CSS styling fundamentals",
+          "isCompleted": false,
+          "resources": ["https://developer.mozilla.org/en-US/docs/Web/HTML"]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "JavaScript Fundamentals",
+          "description": "Variables, functions, loops, DOM manipulation",
+          "isCompleted": false,
+          "resources": ["https://javascript.info/"]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Git & GitHub",
+          "description": "Version control and collaboration",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "React.js",
+          "description": "Component-based UI development",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "State Management",
+          "description": "Redux or Context API",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "TypeScript",
+          "description": "Type-safe JavaScript",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Testing",
+          "description": "Jest and React Testing Library",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Frontend Developer",
+      "description": "Master modern web development with HTML, CSS, JavaScript, and React",
+      "icon": "💻",
+      "difficulty": "Beginner",
+      "duration": "6-12 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Basics",
+          "name": "HTML & CSS",
+          "description": "Learn HTML structure and CSS styling fundamentals",
+          "isCompleted": false,
+          "resources": ["https://developer.mozilla.org/en-US/docs/Web/HTML"]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "JavaScript Fundamentals",
+          "description": "Variables, functions, loops, DOM manipulation",
+          "isCompleted": false,
+          "resources": ["https://javascript.info/"]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Git & GitHub",
+          "description": "Version control and collaboration",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "React.js",
+          "description": "Component-based UI development",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "State Management",
+          "description": "Redux or Context API",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "TypeScript",
+          "description": "Type-safe JavaScript",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Testing",
+          "description": "Jest and React Testing Library",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    }
+    ,
+    {
       "id": "backend",
       "title": "Backend Developer",
       "description": "Build scalable server-side applications and APIs",
@@ -337,3 +458,4 @@
     }
   ]
 }
+
