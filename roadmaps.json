@@ -14,7 +14,8 @@
           "name": "HTML & CSS",
           "description": "Learn HTML structure and CSS styling fundamentals",
           "isCompleted": false,
-          "resources": ["https://developer.mozilla.org/en-US/docs/Web/HTML"]
+          "resources": ["https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "https://developer.mozilla.org/en-US/docs/Web/HTML"]
         },
         {
           "phase": "Phase 1: Basics",
@@ -458,4 +459,5 @@
     }
   ]
 }
+
 
