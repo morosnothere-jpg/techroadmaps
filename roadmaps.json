@@ -100,7 +100,106 @@
         }
       ]
     },
+{
+      "id": "frontend",
+      "title": "Frontend Developer",
+      "description": "Master modern web development with HTML, CSS, JavaScript, and React",
+      "icon": "💻",
+      "difficulty": "Beginner",
+      "duration": "6-12 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Basics",
+          "name": "HTML & CSS",
+          "description": "Learn HTML structure and CSS styling fundamentals",
+          "isCompleted": false,
+          "resources": [
+            "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          ]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "JavaScript Fundamentals",
+          "description": "Variables, functions, loops, DOM manipulation",
+          "isCompleted": false,
+          "resources": ["https://javascript.info/"]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Git & GitHub",
+          "description": "Version control and collaboration",
+          "isCompleted": false,
+          "resources": ["https://learngitbranching.js.org/"]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Responsive Design",
+          "description": "Learn how to build layouts for all screen sizes",
+          "isCompleted": false,
+          "resources": ["https://www.freecodecamp.org/learn/responsive-web-design/"]
+        },
 
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "React.js",
+          "description": "Component-based UI development",
+          "isCompleted": false,
+          "resources": ["https://react.dev/"]
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "State Management",
+          "description": "Redux or Context API",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Frontend Routing",
+          "description": "React Router basics",
+          "isCompleted": false,
+          "resources": ["https://reactrouter.com/"]
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "API Integration",
+          "description": "Working with REST APIs using fetch or Axios",
+          "isCompleted": false,
+          "resources": ["https://axios-http.com/"]
+        },
+
+        {
+          "phase": "Phase 3: Professional",
+          "name": "TypeScript",
+          "description": "Type-safe JavaScript",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Testing",
+          "description": "Jest and React Testing Library",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Performance Optimization",
+          "description": "Lazy loading, memoization, code splitting",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Build Tools",
+          "description": "Vite, Webpack basics",
+          "isCompleted": false,
+          "resources": ["https://vitejs.dev/"]
+        }
+      ]
+    },
     {
       "id": "backend",
       "title": "Backend Developer",
@@ -542,3 +641,4 @@
     }
   ]
 }
+
