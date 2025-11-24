@@ -14,8 +14,10 @@
           "name": "HTML & CSS",
           "description": "Learn HTML structure and CSS styling fundamentals",
           "isCompleted": false,
-          "resources": ["https://developer.mozilla.org/en-US/docs/Web/HTML",
-          "https://developer.mozilla.org/en-US/docs/Web/HTML"]
+          "resources": [
+            "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          ]
         },
         {
           "phase": "Phase 1: Basics",
@@ -29,14 +31,22 @@
           "name": "Git & GitHub",
           "description": "Version control and collaboration",
           "isCompleted": false,
-          "resources": null
+          "resources": ["https://learngitbranching.js.org/"]
         },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Responsive Design",
+          "description": "Learn how to build layouts for all screen sizes",
+          "isCompleted": false,
+          "resources": ["https://www.freecodecamp.org/learn/responsive-web-design/"]
+        },
+
         {
           "phase": "Phase 2: Advanced",
           "name": "React.js",
           "description": "Component-based UI development",
           "isCompleted": false,
-          "resources": null
+          "resources": ["https://react.dev/"]
         },
         {
           "phase": "Phase 2: Advanced",
@@ -45,6 +55,21 @@
           "isCompleted": false,
           "resources": null
         },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Frontend Routing",
+          "description": "React Router basics",
+          "isCompleted": false,
+          "resources": ["https://reactrouter.com/"]
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "API Integration",
+          "description": "Working with REST APIs using fetch or Axios",
+          "isCompleted": false,
+          "resources": ["https://axios-http.com/"]
+        },
+
         {
           "phase": "Phase 3: Professional",
           "name": "TypeScript",
@@ -58,130 +83,24 @@
           "description": "Jest and React Testing Library",
           "isCompleted": false,
           "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Performance Optimization",
+          "description": "Lazy loading, memoization, code splitting",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Build Tools",
+          "description": "Vite, Webpack basics",
+          "isCompleted": false,
+          "resources": ["https://vitejs.dev/"]
         }
       ]
     },
-    {
-      "id": "frontend",
-      "title": "Frontend Developer",
-      "description": "Master modern web development with HTML, CSS, JavaScript, and React",
-      "icon": "💻",
-      "difficulty": "Beginner",
-      "duration": "6-12 months",
-      "isPremium": false,
-      "steps": [
-        {
-          "phase": "Phase 1: Basics",
-          "name": "HTML & CSS",
-          "description": "Learn HTML structure and CSS styling fundamentals",
-          "isCompleted": false,
-          "resources": ["https://developer.mozilla.org/en-US/docs/Web/HTML"]
-        },
-        {
-          "phase": "Phase 1: Basics",
-          "name": "JavaScript Fundamentals",
-          "description": "Variables, functions, loops, DOM manipulation",
-          "isCompleted": false,
-          "resources": ["https://javascript.info/"]
-        },
-        {
-          "phase": "Phase 1: Basics",
-          "name": "Git & GitHub",
-          "description": "Version control and collaboration",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "React.js",
-          "description": "Component-based UI development",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "State Management",
-          "description": "Redux or Context API",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Professional",
-          "name": "TypeScript",
-          "description": "Type-safe JavaScript",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Professional",
-          "name": "Testing",
-          "description": "Jest and React Testing Library",
-          "isCompleted": false,
-          "resources": null
-        }
-      ]
-    },
-    {
-      "id": "frontend",
-      "title": "Frontend Developer",
-      "description": "Master modern web development with HTML, CSS, JavaScript, and React",
-      "icon": "💻",
-      "difficulty": "Beginner",
-      "duration": "6-12 months",
-      "isPremium": false,
-      "steps": [
-        {
-          "phase": "Phase 1: Basics",
-          "name": "HTML & CSS",
-          "description": "Learn HTML structure and CSS styling fundamentals",
-          "isCompleted": false,
-          "resources": ["https://developer.mozilla.org/en-US/docs/Web/HTML"]
-        },
-        {
-          "phase": "Phase 1: Basics",
-          "name": "JavaScript Fundamentals",
-          "description": "Variables, functions, loops, DOM manipulation",
-          "isCompleted": false,
-          "resources": ["https://javascript.info/"]
-        },
-        {
-          "phase": "Phase 1: Basics",
-          "name": "Git & GitHub",
-          "description": "Version control and collaboration",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "React.js",
-          "description": "Component-based UI development",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "State Management",
-          "description": "Redux or Context API",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Professional",
-          "name": "TypeScript",
-          "description": "Type-safe JavaScript",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Professional",
-          "name": "Testing",
-          "description": "Jest and React Testing Library",
-          "isCompleted": false,
-          "resources": null
-        }
-      ]
-    }
-    ,
+
     {
       "id": "backend",
       "title": "Backend Developer",
@@ -213,21 +132,52 @@
           "resources": null
         },
         {
-          "phase": "Phase 2: Advanced",
+          "phase": "Phase 1: Basics",
           "name": "Authentication",
           "description": "JWT, OAuth, Sessions",
           "isCompleted": false,
           "resources": null
         },
+
         {
           "phase": "Phase 2: Advanced",
           "name": "Caching",
           "description": "Redis and caching strategies",
           "isCompleted": false,
           "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Queuing Systems",
+          "description": "RabbitMQ, Kafka basics",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "File Storage",
+          "description": "Local vs cloud storage (S3, Firebase)",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
+          "phase": "Phase 3: Deployment",
+          "name": "Docker",
+          "description": "Containerize backend services",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Deployment",
+          "name": "Monitoring",
+          "description": "Logs, metrics, uptime monitoring",
+          "isCompleted": false,
+          "resources": null
         }
       ]
     },
+
     {
       "id": "mobile",
       "title": "Mobile Developer",
@@ -251,6 +201,7 @@
           "isCompleted": false,
           "resources": null
         },
+
         {
           "phase": "Phase 2: Core Skills",
           "name": "State Management",
@@ -264,9 +215,39 @@
           "description": "HTTP requests, REST APIs",
           "isCompleted": false,
           "resources": null
+        },
+        {
+          "phase": "Phase 2: Core Skills",
+          "name": "Local Storage",
+          "description": "Hive, SharedPreferences, SQLite",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Core Skills",
+          "name": "Navigation",
+          "description": "Nested navigation, deep linking",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
+          "phase": "Phase 3: Advanced",
+          "name": "Animations",
+          "description": "Implicit & explicit animations",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Advanced",
+          "name": "Publishing",
+          "description": "Submit apps to Google Play / App Store",
+          "isCompleted": false,
+          "resources": null
         }
       ]
     },
+
     {
       "id": "fullstack",
       "title": "Full Stack Developer",
@@ -291,6 +272,14 @@
           "resources": null
         },
         {
+          "phase": "Phase 1: Frontend",
+          "name": "Frontend Tooling",
+          "description": "NPM, bundlers, linters",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
           "phase": "Phase 2: Backend",
           "name": "Node.js or Python",
           "description": "Server-side programming",
@@ -305,15 +294,31 @@
           "resources": null
         },
         {
+          "phase": "Phase 2: Backend",
+          "name": "API Development",
+          "description": "REST and GraphQL",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
           "phase": "Phase 3: DevOps",
           "name": "Docker & Deployment",
           "description": "Containerization and cloud deployment",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: DevOps",
+          "name": "CI/CD Pipelines",
+          "description": "Automation with GitHub Actions or GitLab CI",
           "isCompleted": false,
           "resources": null
         }
       ]
     }
   ],
+
   "premium_roadmaps": [
     {
       "id": "blockchain",
@@ -339,6 +344,14 @@
           "resources": null
         },
         {
+          "phase": "Phase 1: Foundations",
+          "name": "Consensus Algorithms",
+          "description": "Proof of Work, Proof of Stake",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
           "phase": "Phase 2: Development",
           "name": "Solidity",
           "description": "Smart contract programming language",
@@ -351,9 +364,17 @@
           "description": "Interact with blockchain from JavaScript",
           "isCompleted": false,
           "resources": null
+        },
+        {
+          "phase": "Phase 2: Development",
+          "name": "Smart Contract Security",
+          "description": "Common vulnerabilities (reentrancy, overflow)",
+          "isCompleted": false,
+          "resources": null
         }
       ]
     },
+
     {
       "id": "ai-ml",
       "title": "AI/ML Engineer",
@@ -377,6 +398,7 @@
           "isCompleted": false,
           "resources": null
         },
+
         {
           "phase": "Phase 2: ML Basics",
           "name": "Python for ML",
@@ -391,8 +413,31 @@
           "isCompleted": false,
           "resources": null
         },
+        {
+          "phase": "Phase 2: ML Basics",
+          "name": "Unsupervised Learning",
+          "description": "Clustering and dimensionality reduction",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
+          "phase": "Phase 3: Deep Learning",
+          "name": "Neural Networks",
+          "description": "Feedforward and backpropagation",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Deep Learning",
+          "name": "Computer Vision",
+          "description": "CNNs and image processing",
+          "isCompleted": false,
+          "resources": null
+        }
       ]
     },
+
     {
       "id": "game-dev",
       "title": "Game Developer",
@@ -417,14 +462,37 @@
           "resources": null
         },
         {
+          "phase": "Phase 1: Engine",
+          "name": "Input Systems",
+          "description": "Keyboard/mouse/touch input",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
           "phase": "Phase 2: Advanced",
           "name": "3D Modeling",
           "description": "Blender or Maya basics",
           "isCompleted": false,
           "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Lighting & Materials",
+          "description": "Shaders, textures, materials",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Character Animation",
+          "description": "Rigs, IK, basic animation",
+          "isCompleted": false,
+          "resources": null
         }
       ]
     },
+
     {
       "id": "cloud-architect",
       "title": "Cloud Architect",
@@ -448,10 +516,25 @@
           "isCompleted": false,
           "resources": null
         },
+
         {
           "phase": "Phase 2: Advanced",
           "name": "Kubernetes",
           "description": "Container orchestration",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Infrastructure as Code",
+          "description": "Terraform or CloudFormation",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Serverless",
+          "description": "Lambda functions, cloud functions",
           "isCompleted": false,
           "resources": null
         }
@@ -459,6 +542,3 @@
     }
   ]
 }
-
-
-
