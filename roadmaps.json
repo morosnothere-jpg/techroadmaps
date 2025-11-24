@@ -391,13 +391,6 @@
           "isCompleted": false,
           "resources": null
         },
-        {
-          "phase": "Phase 3: Math & Stats",
-          "name": "Linear1 Algebra1",
-          "description": "Vectors, matrices, and operations",
-          "isCompleted": false,
-          "resources": null
-        }
       ]
     },
     {
