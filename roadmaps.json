@@ -100,9 +100,87 @@
         }
       ]
     },
+
     {
       "id": "backend",
       "title": "Backend Developer",
+      "description": "Build scalable server-side applications and APIs",
+      "icon": "⚙️",
+      "difficulty": "Intermediate",
+      "duration": "8-14 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Programming Language",
+          "description": "Choose: Python, Node.js, Java, or Go",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Databases",
+          "description": "SQL (PostgreSQL, MySQL) and NoSQL (MongoDB)",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "REST APIs",
+          "description": "Build RESTful web services",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Authentication",
+          "description": "JWT, OAuth, Sessions",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Caching",
+          "description": "Redis and caching strategies",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "Queuing Systems",
+          "description": "RabbitMQ, Kafka basics",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Advanced",
+          "name": "File Storage",
+          "description": "Local vs cloud storage (S3, Firebase)",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
+          "phase": "Phase 3: Deployment",
+          "name": "Docker",
+          "description": "Containerize backend services",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Deployment",
+          "name": "Monitoring",
+          "description": "Logs, metrics, uptime monitoring",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    },
+
+    {
+      "id": "backend2",
+      "title": "Backend Developer (Duplicate)",
       "description": "Build scalable server-side applications and APIs",
       "icon": "⚙️",
       "difficulty": "Intermediate",
@@ -248,69 +326,125 @@
     },
 
     {
-      "id": "fullstack",
-      "title": "Full Stack Developer",
-      "description": "Master both frontend and backend development",
-      "icon": "🚀",
-      "difficulty": "Advanced",
-      "duration": "12-18 months",
+      "id": "mobile2",
+      "title": "Mobile Developer (Duplicate)",
+      "description": "Create native and cross-platform mobile applications",
+      "icon": "📱",
+      "difficulty": "Intermediate",
+      "duration": "6-10 months",
       "isPremium": false,
       "steps": [
         {
-          "phase": "Phase 1: Frontend",
-          "name": "HTML, CSS, JavaScript",
-          "description": "Master the frontend basics",
+          "phase": "Phase 1: Choose Platform",
+          "name": "Select Framework",
+          "description": "Flutter, React Native, or Native (Swift/Kotlin)",
           "isCompleted": false,
           "resources": null
         },
         {
-          "phase": "Phase 1: Frontend",
-          "name": "React or Vue",
-          "description": "Modern frontend framework",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 1: Frontend",
-          "name": "Frontend Tooling",
-          "description": "NPM, bundlers, linters",
+          "phase": "Phase 1: Choose Platform",
+          "name": "UI/UX Design",
+          "description": "Mobile design patterns and best practices",
           "isCompleted": false,
           "resources": null
         },
 
         {
-          "phase": "Phase 2: Backend",
-          "name": "Node.js or Python",
-          "description": "Server-side programming",
+          "phase": "Phase 2: Core Skills",
+          "name": "State Management",
+          "description": "Provider, Bloc, Redux, etc.",
           "isCompleted": false,
           "resources": null
         },
         {
-          "phase": "Phase 2: Backend",
-          "name": "Databases",
-          "description": "SQL and NoSQL",
+          "phase": "Phase 2: Core Skills",
+          "name": "APIs & Networking",
+          "description": "HTTP requests, REST APIs",
           "isCompleted": false,
           "resources": null
         },
         {
-          "phase": "Phase 2: Backend",
-          "name": "API Development",
-          "description": "REST and GraphQL",
+          "phase": "Phase 2: Core Skills",
+          "name": "Local Storage",
+          "description": "Hive, SharedPreferences, SQLite",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Core Skills",
+          "name": "Navigation",
+          "description": "Nested navigation, deep linking",
           "isCompleted": false,
           "resources": null
         },
 
         {
-          "phase": "Phase 3: DevOps",
-          "name": "Docker & Deployment",
-          "description": "Containerization and cloud deployment",
+          "phase": "Phase 3: Advanced",
+          "name": "Animations",
+          "description": "Implicit & explicit animations",
           "isCompleted": false,
           "resources": null
         },
         {
-          "phase": "Phase 3: DevOps",
-          "name": "CI/CD Pipelines",
-          "description": "Automation with GitHub Actions or GitLab CI",
+          "phase": "Phase 3: Advanced",
+          "name": "Publishing",
+          "description": "Submit apps to Google Play / App Store",
+          "isCompleted": false,
+          "resources": null
+        }
+      ]
+    },
+
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity",
+      "description": "Protect systems, networks, and applications from attacks",
+      "icon": "💻",
+      "difficulty": "Advanced",
+      "duration": "10-18 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Fundamentals",
+          "name": "Networking Basics",
+          "description": "TCP/IP, routing, switching, protocols",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 1: Fundamentals",
+          "name": "Operating Systems",
+          "description": "Windows & Linux security basics",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
+          "phase": "Phase 2: Security Concepts",
+          "name": "Vulnerabilities",
+          "description": "OWASP Top 10, common exploits",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 2: Security Concepts",
+          "name": "Cryptography",
+          "description": "Encryption, hashing, TLS",
+          "isCompleted": false,
+          "resources": null
+        },
+
+        {
+          "phase": "Phase 3: Advanced",
+          "name": "Penetration Testing",
+          "description": "Tools like Burp Suite, Metasploit, Nmap",
+          "isCompleted": false,
+          "resources": null
+        },
+        {
+          "phase": "Phase 3: Advanced",
+          "name": "Security Hardening",
+          "description": "System patching, firewall rules, secure configs",
           "isCompleted": false,
           "resources": null
         }
@@ -328,49 +462,13 @@
       "duration": "10-16 months",
       "isPremium": true,
       "steps": [
-        {
-          "phase": "Phase 1: Foundations",
-          "name": "Blockchain Basics",
-          "description": "Understand how blockchain technology works",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 1: Foundations",
-          "name": "Cryptography",
-          "description": "Hashing, encryption, digital signatures",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 1: Foundations",
-          "name": "Consensus Algorithms",
-          "description": "Proof of Work, Proof of Stake",
-          "isCompleted": false,
-          "resources": null
-        },
+        { "phase": "Phase 1: Foundations", "name": "Blockchain Basics", "description": "Understand how blockchain technology works", "isCompleted": false, "resources": null },
+        { "phase": "Phase 1: Foundations", "name": "Cryptography", "description": "Hashing, encryption, digital signatures", "isCompleted": false, "resources": null },
+        { "phase": "Phase 1: Foundations", "name": "Consensus Algorithms", "description": "Proof of Work, Proof of Stake", "isCompleted": false, "resources": null },
 
-        {
-          "phase": "Phase 2: Development",
-          "name": "Solidity",
-          "description": "Smart contract programming language",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Development",
-          "name": "Web3.js",
-          "description": "Interact with blockchain from JavaScript",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Development",
-          "name": "Smart Contract Security",
-          "description": "Common vulnerabilities (reentrancy, overflow)",
-          "isCompleted": false,
-          "resources": null
-        }
+        { "phase": "Phase 2: Development", "name": "Solidity", "description": "Smart contract programming language", "isCompleted": false, "resources": null },
+        { "phase": "Phase 2: Development", "name": "Web3.js", "description": "Interact with blockchain from JavaScript", "isCompleted": false, "resources": null },
+        { "phase": "Phase 2: Development", "name": "Smart Contract Security", "description": "Common vulnerabilities (reentrancy, overflow)", "isCompleted": false, "resources": null }
       ]
     },
 
@@ -383,57 +481,15 @@
       "duration": "12-20 months",
       "isPremium": true,
       "steps": [
-        {
-          "phase": "Phase 1: Math & Stats",
-          "name": "Linear Algebra",
-          "description": "Vectors, matrices, and operations",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 1: Math & Stats",
-          "name": "Statistics & Probability",
-          "description": "Distributions, hypothesis testing",
-          "isCompleted": false,
-          "resources": null
-        },
+        { "phase": "Phase 1: Math & Stats", "name": "Linear Algebra", "description": "Vectors, matrices, and operations", "isCompleted": false, "resources": null },
+        { "phase": "Phase 1: Math & Stats", "name": "Statistics & Probability", "description": "Distributions, hypothesis testing", "isCompleted": false, "resources": null },
 
-        {
-          "phase": "Phase 2: ML Basics",
-          "name": "Python for ML",
-          "description": "NumPy, Pandas, Matplotlib",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: ML Basics",
-          "name": "Supervised Learning",
-          "description": "Regression, classification algorithms",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: ML Basics",
-          "name": "Unsupervised Learning",
-          "description": "Clustering and dimensionality reduction",
-          "isCompleted": false,
-          "resources": null
-        },
+        { "phase": "Phase 2: ML Basics", "name": "Python for ML", "description": "NumPy, Pandas, Matplotlib", "isCompleted": false, "resources": null },
+        { "phase": "Phase 2: ML Basics", "name": "Supervised Learning", "description": "Regression, classification algorithms", "isCompleted": false, "resources": null },
+        { "phase": "Phase 2: ML Basics", "name": "Unsupervised Learning", "description": "Clustering and dimensionality reduction", "isCompleted": false, "resources": null },
 
-        {
-          "phase": "Phase 3: Deep Learning",
-          "name": "Neural Networks",
-          "description": "Feedforward and backpropagation",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Deep Learning",
-          "name": "Computer Vision",
-          "description": "CNNs and image processing",
-          "isCompleted": false,
-          "resources": null
-        }
+        { "phase": "Phase 3: Deep Learning", "name": "Neural Networks", "description": "Feedforward and backpropagation", "isCompleted": false, "resources": null },
+        { "phase": "Phase 3: Deep Learning", "name": "Computer Vision", "description": "CNNs and image processing", "isCompleted": false, "resources": null }
       ]
     },
 
@@ -446,49 +502,13 @@
       "duration": "10-15 months",
       "isPremium": true,
       "steps": [
-        {
-          "phase": "Phase 1: Engine",
-          "name": "Choose Engine",
-          "description": "Unity (C#) or Unreal (C++)",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 1: Engine",
-          "name": "Game Physics",
-          "description": "Collision, gravity, movement",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 1: Engine",
-          "name": "Input Systems",
-          "description": "Keyboard/mouse/touch input",
-          "isCompleted": false,
-          "resources": null
-        },
+        { "phase": "Phase 1: Engine", "name": "Choose Engine", "description": "Unity (C#) or Unreal (C++)", "isCompleted": false, "resources": null },
+        { "phase": "Phase 1: Engine", "name": "Game Physics", "description": "Collision, gravity, movement", "isCompleted": false, "resources": null },
+        { "phase": "Phase 1: Engine", "name": "Input Systems", "description": "Keyboard/mouse/touch input", "isCompleted": false, "resources": null },
 
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "3D Modeling",
-          "description": "Blender or Maya basics",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "Lighting & Materials",
-          "description": "Shaders, textures, materials",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "Character Animation",
-          "description": "Rigs, IK, basic animation",
-          "isCompleted": false,
-          "resources": null
-        }
+        { "phase": "Phase 2: Advanced", "name": "3D Modeling", "description": "Blender or Maya basics", "isCompleted": false, "resources": null },
+        { "phase": "Phase 2: Advanced", "name": "Lighting & Materials", "description": "Shaders, textures, materials", "isCompleted": false, "resources": null },
+        { "phase": "Phase 2: Advanced", "name": "Character Animation", "description": "Rigs, IK, basic animation", "isCompleted": false, "resources": null }
       ]
     },
 
@@ -501,45 +521,13 @@
       "duration": "12-18 months",
       "isPremium": true,
       "steps": [
-        {
-          "phase": "Phase 1: Cloud Basics",
-          "name": "AWS/Azure/GCP",
-          "description": "Choose a cloud platform",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 1: Cloud Basics",
-          "name": "Networking",
-          "description": "VPC, subnets, load balancers",
-          "isCompleted": false,
-          "resources": null
-        },
+        { "phase": "Phase 1: Cloud Basics", "name": "AWS/Azure/GCP", "description": "Choose a cloud platform", "isCompleted": false, "resources": null },
+        { "phase": "Phase 1: Cloud Basics", "name": "Networking", "description": "VPC, subnets, load balancers", "isCompleted": false, "resources": null },
 
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "Kubernetes",
-          "description": "Container orchestration",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "Infrastructure as Code",
-          "description": "Terraform or CloudFormation",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Advanced",
-          "name": "Serverless",
-          "description": "Lambda functions, cloud functions",
-          "isCompleted": false,
-          "resources": null
-        }
+        { "phase": "Phase 2: Advanced", "name": "Kubernetes", "description": "Container orchestration", "isCompleted": false, "resources": null },
+        { "phase": "Phase 2: Advanced", "name": "Infrastructure as Code", "description": "Terraform or CloudFormation", "isCompleted": false, "resources": null },
+        { "phase": "Phase 2: Advanced", "name": "Serverless", "description": "Lambda functions, cloud functions", "isCompleted": false, "resources": null }
       ]
     }
   ]
 }
-
-
