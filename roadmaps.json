@@ -105,7 +105,7 @@
       "id": "backend",
       "title": "Backend Developer",
       "description": "Build scalable server-side applications and APIs",
-      "icon": "⚙️",
+      "icon": "https://raw.githubusercontent.com/morosnothere-jpg/techroadmaps/58a4b4b1c93426d364d594d9ec83a75a8881120f/icons/backend.svg",
       "difficulty": "Intermediate",
       "duration": "8-14 months",
       "isPremium": false,
@@ -531,5 +531,6 @@
     }
   ]
 }
+
 
 
