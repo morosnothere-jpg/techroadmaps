@@ -4,7 +4,7 @@
       "id": "frontend",
       "title": "Frontend Developer",
       "description": "Master modern web development with HTML, CSS, JavaScript, and React",
-      "icon": "https://raw.githubusercontent.com/morosnothere-jpg/techroadmaps/0df140115a9880daa7ac53f1e6746f71779cc527/icons/frontend.svg",
+      "icon": "https://raw.githubusercontent.com/morosnothere-jpg/techroadmaps/1c9adb04797ec1bd0455bc6eaa9123f1c67a3585/icons/frontend.svg",
       "difficulty": "Beginner",
       "duration": "6-12 months",
       "isPremium": false,
@@ -531,4 +531,5 @@
     }
   ]
 }
+
 
