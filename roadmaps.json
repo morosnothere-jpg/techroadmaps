@@ -1,10 +1,10 @@
 {
   "free_roadmaps": [
     {
-      "id": "frontend",
-      "title": "Frontend Developer",
+      "id": "frontendjs-react",
+      "title": "Frontend - React JS",
       "description": "Master modern web development with HTML, CSS, JavaScript, and React",
-      "icon": "https://raw.githubusercontent.com/morosnothere-jpg/techroadmaps/1c9adb04797ec1bd0455bc6eaa9123f1c67a3585/icons/frontend.svg",
+      "icon": "https://raw.githubusercontent.com/morosnothere-jpg/techroadmaps/fc80190e2f90e43b0ae3121240975573177c1904/icons/reactjs.svg",
       "difficulty": "Beginner",
       "duration": "6-12 months",
       "isPremium": false,
@@ -60,7 +60,10 @@
           "name": "State Management",
           "description": "Redux or Context API",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://redux.js.org/",
+            "https://react.dev/learn/passing-data-deeply-with-context"
+          ]
         },
         {
           "phase": "Phase 2: Advanced",
@@ -85,26 +88,136 @@
           "name": "TypeScript",
           "description": "Type-safe JavaScript",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://www.typescriptlang.org/"
+          ]
         },
         {
           "phase": "Phase 3: Professional",
           "name": "Testing",
           "description": "Jest and React Testing Library",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://jestjs.io/",
+            "https://testing-library.com/docs/react-testing-library/intro/"
+          ]
         },
         {
           "phase": "Phase 3: Professional",
           "name": "Performance Optimization",
           "description": "Lazy loading, memoization, code splitting",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://react.dev/learn/code-splitting"
+          ]
         },
         {
           "phase": "Phase 3: Professional",
           "name": "Build Tools",
           "description": "Vite, Webpack basics",
+          "isCompleted": false,
+          "resources": [
+            "https://vitejs.dev/",
+            "https://webpack.js.org/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frontendjs-vue",
+      "title": "Frontend - Vue.js",
+      "description": "Master modern web development with HTML, CSS, JavaScript, and Vue",
+      "icon": "https://raw.githubusercontent.com/morosnothere-jpg/techroadmaps/fc80190e2f90e43b0ae3121240975573177c1904/icons/vue.svg",
+      "difficulty": "Beginner",
+      "duration": "6-12 months",
+      "isPremium": false,
+      "steps": [
+        {
+          "phase": "Phase 1: Basics",
+          "name": "HTML & CSS",
+          "description": "Learn HTML structure and CSS styling fundamentals",
+          "isCompleted": false,
+          "resources": [
+            "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "https://developer.mozilla.org/en-US/docs/Web/CSS"
+          ]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "JavaScript Fundamentals",
+          "description": "Modern JavaScript essentials",
+          "isCompleted": false,
+          "resources": [
+            "https://javascript.info/"
+          ]
+        },
+        {
+          "phase": "Phase 1: Basics",
+          "name": "Git & GitHub",
+          "description": "Version control and collaboration",
+          "isCompleted": false,
+          "resources": [
+            "https://learngitbranching.js.org/"
+          ]
+        },
+        {
+          "phase": "Phase 2: Vue Core",
+          "name": "Vue Basics",
+          "description": "Vue components, directives, reactive templates",
+          "isCompleted": false,
+          "resources": [
+            "https://vuejs.org/guide/introduction.html"
+          ]
+        },
+        {
+          "phase": "Phase 2: Vue Core",
+          "name": "Reactivity & Composition API",
+          "description": "Reactive data, computed, watchers",
+          "isCompleted": false,
+          "resources": [
+            "https://vuejs.org/guide/essentials/reactivity-fundamentals.html"
+          ]
+        },
+        {
+          "phase": "Phase 2: Vue Core",
+          "name": "Vue Router",
+          "description": "Client-side routing with Vue Router",
+          "isCompleted": false,
+          "resources": [
+            "https://router.vuejs.org/"
+          ]
+        },
+        {
+          "phase": "Phase 2: Vue Core",
+          "name": "State Management (Pinia)",
+          "description": "Application-wide state using Pinia",
+          "isCompleted": false,
+          "resources": [
+            "https://pinia.vuejs.org/"
+          ]
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "API Integration",
+          "description": "Fetch/axios with Vue components",
+          "isCompleted": false,
+          "resources": [
+            "https://axios-http.com/"
+          ]
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Testing",
+          "description": "Unit & component tests with Vue Test Utils",
+          "isCompleted": false,
+          "resources": [
+            "https://vue-test-utils.vuejs.org/"
+          ]
+        },
+        {
+          "phase": "Phase 3: Professional",
+          "name": "Build Tools & Deployment",
+          "description": "Vite & deployment",
           "isCompleted": false,
           "resources": [
             "https://vitejs.dev/"
@@ -113,196 +226,105 @@
       ]
     },
     {
-      "id": "backend",
-      "title": "Backend Developer",
-      "description": "Build scalable server-side applications and APIs",
-      "icon": "https://raw.githubusercontent.com/morosnothere-jpg/techroadmaps/58a4b4b1c93426d364d594d9ec83a75a8881120f/icons/backend.svg",
-      "difficulty": "Intermediate",
-      "duration": "8-14 months",
+      "id": "frontendjs-angular",
+      "title": "Frontend - Angular",
+      "description": "Master modern web development with HTML, CSS, TypeScript, and Angular",
+      "icon": "https://raw.githubusercontent.com/morosnothere-jpg/techroadmaps/fc80190e2f90e43b0ae3121240975573177c1904/icons/angular.svg",
+      "difficulty": "Beginner",
+      "duration": "6-12 months",
       "isPremium": false,
       "steps": [
         {
           "phase": "Phase 1: Basics",
-          "name": "Programming Language",
-          "description": "Choose: Python, Node.js, Java, or Go",
+          "name": "HTML, CSS & TypeScript",
+          "description": "HTML structure, CSS layout, and TypeScript fundamentals",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "https://www.typescriptlang.org/"
+          ]
         },
         {
           "phase": "Phase 1: Basics",
-          "name": "Databases",
-          "description": "SQL (PostgreSQL, MySQL) and NoSQL (MongoDB)",
+          "name": "Angular CLI & Project Setup",
+          "description": "Install Angular CLI and create your first app",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://angular.io/cli"
+          ]
         },
         {
-          "phase": "Phase 1: Basics",
-          "name": "REST APIs",
-          "description": "Build RESTful web services",
+          "phase": "Phase 2: Angular Core",
+          "name": "Components & Templates",
+          "description": "Create reusable components with templates",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://angular.io/guide/architecture-components"
+          ]
         },
         {
-          "phase": "Phase 1: Basics",
-          "name": "Authentication",
-          "description": "JWT, OAuth, Sessions",
+          "phase": "Phase 2: Angular Core",
+          "name": "Directives & Data Binding",
+          "description": "Built-in directives and different bindings",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://angular.io/guide/binding-syntax"
+          ]
         },
         {
-          "phase": "Phase 2: Advanced",
-          "name": "Caching",
-          "description": "Redis and caching strategies",
+          "phase": "Phase 2: Angular Core",
+          "name": "Routing & Navigation",
+          "description": "Angular Router basics",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://angular.io/guide/router"
+          ]
         },
         {
-          "phase": "Phase 2: Advanced",
-          "name": "Queuing Systems",
-          "description": "RabbitMQ, Kafka basics",
+          "phase": "Phase 2: Angular Core",
+          "name": "Services & Dependency Injection",
+          "description": "Reusable logic with DI",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://angular.io/guide/architecture-services"
+          ]
         },
         {
-          "phase": "Phase 2: Advanced",
-          "name": "File Storage",
-          "description": "Local vs cloud storage (S3, Firebase)",
+          "phase": "Phase 3: Professional",
+          "name": "Forms (Template & Reactive)",
+          "description": "Form handling and validation",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://angular.io/guide/forms-overview"
+          ]
         },
         {
-          "phase": "Phase 3: Deployment",
-          "name": "Docker",
-          "description": "Containerize backend services",
+          "phase": "Phase 3: Professional",
+          "name": "HTTP & APIs",
+          "description": "Making API calls with HttpClient",
           "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://angular.io/guide/http"
+          ]
         },
         {
-          "phase": "Phase 3: Deployment",
-          "name": "Monitoring",
-          "description": "Logs, metrics, uptime monitoring",
+          "phase": "Phase 3: Professional",
+          "name": "State Management (NgRx)",
+          "description": "Redux-style state with NgRx",
           "isCompleted": false,
-          "resources": null
-        }
-      ]
-    },
-    {
-      "id": "mobile",
-      "title": "Mobile Developer",
-      "description": "Create native and cross-platform mobile applications",
-      "icon": "📱",
-      "difficulty": "Intermediate",
-      "duration": "6-10 months",
-      "isPremium": false,
-      "steps": [
-        {
-          "phase": "Phase 1: Choose Platform",
-          "name": "Select Framework",
-          "description": "Flutter, React Native, or Native (Swift/Kotlin)",
-          "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://ngrx.io/"
+          ]
         },
         {
-          "phase": "Phase 1: Choose Platform",
-          "name": "UI/UX Design",
-          "description": "Mobile design patterns and best practices",
+          "phase": "Phase 3: Professional",
+          "name": "Testing & Deployment",
+          "description": "Unit tests & deployment best practices",
           "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Core Skills",
-          "name": "State Management",
-          "description": "Provider, Bloc, Redux, etc.",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Core Skills",
-          "name": "APIs & Networking",
-          "description": "HTTP requests, REST APIs",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Core Skills",
-          "name": "Local Storage",
-          "description": "Hive, SharedPreferences, SQLite",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Core Skills",
-          "name": "Navigation",
-          "description": "Nested navigation, deep linking",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Advanced",
-          "name": "Animations",
-          "description": "Implicit & explicit animations",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Advanced",
-          "name": "Publishing",
-          "description": "Submit apps to Google Play / App Store",
-          "isCompleted": false,
-          "resources": null
-        }
-      ]
-    },
-    {
-      "id": "cybersecurity",
-      "title": "Cybersecurity",
-      "description": "Protect systems, networks, and applications from attacks",
-      "icon": "💻",
-      "difficulty": "Advanced",
-      "duration": "10-18 months",
-      "isPremium": false,
-      "steps": [
-        {
-          "phase": "Phase 1: Fundamentals",
-          "name": "Networking Basics",
-          "description": "TCP/IP, routing, switching, protocols",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 1: Fundamentals",
-          "name": "Operating Systems",
-          "description": "Windows & Linux security basics",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Security Concepts",
-          "name": "Vulnerabilities",
-          "description": "OWASP Top 10, common exploits",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 2: Security Concepts",
-          "name": "Cryptography",
-          "description": "Encryption, hashing, TLS",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Advanced",
-          "name": "Penetration Testing",
-          "description": "Tools like Burp Suite, Metasploit, Nmap",
-          "isCompleted": false,
-          "resources": null
-        },
-        {
-          "phase": "Phase 3: Advanced",
-          "name": "Security Hardening",
-          "description": "System patching, firewall rules, secure configs",
-          "isCompleted": false,
-          "resources": null
+          "resources": [
+            "https://angular.io/guide/testing"
+          ]
         }
       ]
     }
